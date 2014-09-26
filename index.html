@@ -8,20 +8,23 @@
 </head>
 <body>
   <div class="main-container">
-    <div class="nav-container">
-      <ul id="nav-menu" class="nav nav-tabs nav-stacked col-lg-1">
-        <li class="active"><a href="#home" data-toggle="tab">Home</a></li>
-        <li class=""><a href="#profile" data-toggle="tab">Profile</a></li>
-        <li class=""><a href="#projects" data-toggle="tab">Projects</a></li>
-        <li class=""><a href="#blog" data-toggle="tab">Blog</a></li>
-      </ul>
+    <div id="profile" class="">
+      <h2>David Hugentobler</h2>
+      <nav class="navbar navbar-fixed-side navbar-fixed-side-right" role="navigation">
+          <ul id="nav-menu" class="nav nav-tabs">
+            <li class="active"><a href="#home" data-toggle="tab">Home</a></li>
+            <li class=""><a href="#bio" data-toggle="tab">Bio</a></li>
+            <li class=""><a href="#projects" data-toggle="tab">Projects</a></li>
+            <li class=""><a href="#blog" data-toggle="tab">Blog</a></li>
+          </ul>
+      </nav>
     </div>
     <div class="body-container">
       <div id="myTabContent" class="tab-content">
-        <div class="tab-pane fade" id="home">
+        <div class="tab-pane fade in active" id="home">
           <p>Home</p>
         </div>
-        <div class="tab-pane fade" id="profile">
+        <div class="tab-pane fade" id="bio">
           <p>Bio about Dave</p>
         </div>
         <div class="tab-pane fade" id="projects">
@@ -35,7 +38,9 @@
 
   </div>
 
+
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="scripts/mainScript.js"></script>
 </body>
 </html>
